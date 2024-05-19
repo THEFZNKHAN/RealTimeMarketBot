@@ -1,11 +1,11 @@
 # RealTimeMarketBot
 
-This Telegram bot allows users to fetch real-time stock data directly within Telegram. Users can select from a list of predefined stocks or enter a custom stock symbol to retrieve relevant information such as open, high, low, close prices, and volume.
+This Telegram bot allows users to fetch real-time stock data directly within Telegram. Users can select from a list of predefined stocks or enter a custom stock symbol to retrieve relevant information such as open, high, low, and close prices, and volume.
 
 ## Features
 
 - **Predefined Stocks**: Choose from a list of essential stocks such as AAPL, GOOGL, MSFT, and more.
-- **Custom Stock Symbols**: Enter custom stock symbols to fetch data for any publicly traded company.
+- **Custom Stock Symbols**: Enter custom stock symbols to fetch data for publicly traded companies.
 - **Multiple Durations**: Select from various durations including 1 minute, 5 minutes, 15 minutes, 30 minutes, 60 minutes, daily, weekly, and monthly.
 - **Interactive Interface**: User-friendly interface with inline keyboards for easy navigation.
 - **Real-time Data**: Fetches real-time stock data from an external API.
@@ -47,7 +47,7 @@ This Telegram bot allows users to fetch real-time stock data directly within Tel
     ```
 5. **Running the Bot:**
     ```bash
-    python -m src.bot
+    python main.py
     ```
 
 ## Contributing
